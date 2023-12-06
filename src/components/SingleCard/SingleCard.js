@@ -8,7 +8,7 @@ export const SingleCard = ({ card, handleChoice, flipped }) => {
     <div className="card">
       <div className={flipped ? "flipped" : ""}>
         <img className="front" src={card.src} />
-        <img className="back" onClick={handleClick} src="/assets/back.png" />
+        <img className="back" onClick={handleClick} src="./assets/back.png" />
       </div>
     </div>
   );

@@ -3,12 +3,12 @@ import { SingleCard } from "./components/SingleCard/SingleCard";
 import "./App.css";
 
 const cardChoice = [
-  { src: "/assets/Jiraya.png" },
-  { src: "/assets/Itachi.png" },
-  { src: "/assets/Naruto.png" },
-  { src: "/assets/Neji.png" },
-  { src: "/assets/Sasuke.png" },
-  { src: "/assets/Sakura.png" },
+  { src: "./assets/Jiraya.png" },
+  { src: "./assets/Itachi.png" },
+  { src: "./assets/Naruto.png" },
+  { src: "./assets/Neji.png" },
+  { src: "./assets/Sasuke.png" },
+  { src: "./assets/Sakura.png" },
 ];
 
 function App() {
